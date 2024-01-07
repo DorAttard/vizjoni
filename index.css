@@ -74,7 +74,7 @@ h4{
   height: auto;
   display: block;
   font-family: Baskerville, Regular;
-  font-size: 3vw;
+  font-size: 4vw;
   font-weight: lighter;
   text-align: center;
     
@@ -112,14 +112,14 @@ body {
   h5{
     font-family: Helvetica, sans-serif;
     text-align: justify;
-    font-size: 1.5vw;
+    /* font-size: 1.5vw; */
     font-style: italic;
     color: black;
     margin-left: 6vw;
     margin-right: 6vw;
     margin-bottom: 3vh;
-   
-    line-height: 3vw;
+    margin-top: 3vh;
+    /* line-height: 3vw; */
     padding-bottom: 0;
 
   }
@@ -143,10 +143,7 @@ h6{
     line-height: 3vw;
     margin-top: 2vh;
     margin-bottom: -2vh;
-
 }
-
-
 
 
 
@@ -254,17 +251,17 @@ label {
     font-weight: lighter;
     font-style: italic;
     align-items: center;
-    font-size: 3vw;
+    font-size: 30px;
     color: black;
     
 }
 
 input {
-    width: 100 ; /* Make the input fields 100% width within their container */
+    width: 100%; /* Make the input fields 100% width within their container */
     height: 5vh;
     padding-left: 30px; /* Add padding for better appearance and spacing */
     margin-bottom: 10px; /* Add bottom margin for spacing between form fields */
-    margin-left: 5px;
+    /* margin-left: 5px; */
     color: black;
     
 }
@@ -273,7 +270,6 @@ button {
   padding: 2px; /* Add padding to the button for better appearance */
   justify-content: left;
   margin-bottom: 40px;
-  
   border: none;
   background-color: white;
   display: flex;
@@ -303,7 +299,7 @@ hr{
   
 }
 
-input {
+/* input {
   width: 100%;
   padding: 10px;
   margin-bottom: 16px;
@@ -311,12 +307,7 @@ input {
   border-radius: 4px;
   outline: none;
   background-color: white;
-  }
-
-  .poem {
-    display: flex;
-    justify-content: space-between;
-  }
+  } */
 
  
 
@@ -350,7 +341,6 @@ input {
   }
 
   #about{
-
     color: black;
     text-align: justify;
     font-style: normal;
@@ -423,9 +413,13 @@ input {
     
 }
 
-
 .contactus {
   margin-top: 5vh;
 }
  
+.row {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 2vh;
+}
   
