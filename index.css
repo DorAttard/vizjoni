@@ -1,0 +1,484 @@
+nav {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  a {
+    flex: 1;
+    
+    color: black;
+    font-family:Baskerville, Regular;
+    font-size: 3vw;
+    font-weight: lighter;
+    padding: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.5s ease-out;
+  }
+  
+  a:hover,
+  a:focus {
+    
+  
+   color: black;
+    transform: scale(1.1); /* Scale up to 120% on hover */
+  }
+
+
+  
+
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    
+    display: block;
+    
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    margin-left: 2vw;
+    margin-right: 2vw;
+
+}
+
+
+
+h3{
+    font-family:Baskerville, Regular;
+    font-size: 3vw;
+    font-weight: lighter;
+    text-align: center;
+    word-spacing: 15vw;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    color: black;
+   
+}
+
+h2{
+
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+    font-style:italic;
+    font-weight: lighter;
+    text-align: center;
+    color: black;
+
+}
+
+h4{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px;
+    font-family: Baskerville, Regular;
+    font-size: 3vw;
+    font-weight: lighter;
+    text-align: center;
+     
+    color: white;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background-color: black;
+    transform: none;
+
+}
+
+video {
+    max-width: 100%;
+    width: 1420px;
+    height:580px;
+    pointer-events: none;
+    padding-top: 2vh;
+    padding-bottom: 5vh;
+    height: auto;
+    display: block;
+    margin-bottom: 5vh; /* Center the image within its container */
+
+}
+
+
+
+
+body {
+    height: 150vh; /* Ensure there's enough scrolling space */
+    animation: fadeIn 1s ease-in-out;
+    
+    background-color: white;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    
+  }
+
+  h5{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    font-size: 1.5vw;
+    font-style: italic;
+    color: black;
+    margin-left: 6vw;
+    margin-right: 6vw;
+    margin-bottom: 3vh;
+   
+    line-height: 3vw;
+    padding-bottom: 0;
+
+  }
+
+  .aboutvizjoni{
+
+    text-decoration: underline;
+    font-style: normal;
+    font-size: 2vw;
+    font-weight: bold;
+  }
+
+  
+
+  
+
+h6{ 
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 2vw;
+    font-style: italic;
+    color: black;
+    margin-left: 2vw;
+    line-height: 3vw;
+    margin-top: 2vh;
+    margin-bottom: -2vh;
+
+}
+
+
+
+
+
+h7{
+    font-family: Baskerville, Regular;
+    text-align: right;
+    font-weight: lighter;
+    font-size: 3vw;
+    font-style: italic;
+    color: black;
+    padding-bottom: 3vh;
+
+}
+
+
+
+
+h1{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16vw;
+    text-align: center;
+    margin-bottom: 0%;
+    color: black;
+}
+
+.font1{
+
+    font-family: "Font1", Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    
+}
+
+.font2{
+    font-family: "Font2", Baskerville, Regular;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+
+
+}
+
+#instaimg{
+
+    width: 50px;
+    height: 50px;
+}
+
+#fb{
+
+    width: 50px;
+    height: 50px;
+
+}
+
+#um{
+    width: 100px;
+    height: 100px;
+
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+.image-container {
+    display: flex;
+    padding: 2vw;
+   
+    
+}
+
+.image-container img {
+    width: 20vh; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: auto ; /* Adjust the margin for spacing between images */
+    margin-left: auto;
+    justify-content:center;
+   
+    
+}
+
+@media (max-width: 768px) {
+  .image-container img {
+
+    transform: scale(80%);
+    width: 10vh;
+    margin-right: auto ; /* Adjust the margin for spacing between images */
+    margin-left: auto;
+    justify-content:center;
+
+  }
+
+}
+
+
+
+form {
+    max-width: 400px; /* Set a maximum width for the form */
+   display: flex;
+   margin-left: 10vw;
+   flex-direction: column;
+    margin: 0 auto; /* Center the form horizontally */
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+label {
+    display: block; /* Display labels as block elements for better spacing */
+    margin-bottom: 10px; /* Add some bottom margin for spacing */
+    font-family: "Font2", Baskerville, Regular;
+    font-weight: lighter;
+    font-style: italic;
+    align-items: center;
+    font-size: 3vw;
+    color: black;
+    
+}
+
+input {
+    width: 100 ; /* Make the input fields 100% width within their container */
+    height: 5vh;
+    padding-left: 30px; /* Add padding for better appearance and spacing */
+    margin-bottom: 10px; /* Add bottom margin for spacing between form fields */
+    margin-left: 5px;
+    color: black;
+    
+}
+
+button {
+    padding: 2px; /* Add padding to the button for better appearance */
+    justify-content: left;
+    margin-bottom: 40px;
+   
+    border: none;
+    background-color: white;
+    display: flex;
+    width: 30px;
+    
+    
+}
+
+hr{
+    
+    border: 0.5vw solid black;
+    margin-bottom: 8vh;
+    margin-left: 10vw;
+    opacity: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+      
+}
+
+#group {
+
+    font-size: 3vw;
+    font-family: "Font1", Arial, Helvetica, sans-serif;
+    font-style: italic;
+    text-align: right;
+    font-weight: lighter;
+    text-align: right;
+    width: 100%;
+    color: black;
+    
+
+  
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    background-color: white;
+  }
+
+  .poem {
+    display: flex;
+    justify-content: space-between;
+  }
+
+ 
+
+  p{
+
+    font-family: "Font1", Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: lighter;
+    color: black;
+    text-align: center;
+    font-size: 2vw;
+    
+    margin-left: 20vw;
+    margin-right: 20vw;
+    transition: transform 0.3s ease-in-out;
+   
+    
+  }
+
+  .welcome{
+
+    font-family: "Font1", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    color: black;
+    text-align: center;
+    font-size: 5vw;
+
+    
+    
+    
+
+  }
+  p:hover {
+    
+    color: black;
+    background-color: white;
+    
+    transform: scale(1.1); /* Scale up to 120% on hover */
+    
+
+  }
+
+  #about{
+
+    color: black;
+    text-align: justify;
+    font-style: normal;
+    padding: 20px;
+    font-size: 1.9vw;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    margin-bottom: 4vh;
+
+
+
+  }
+
+  @media (max-width: 768px) {
+    #about {
+        font-size: 3vw; /* Adjust font size for smaller screens */
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+}
+
+  #about:hover{
+
+    color: black;
+    text-align: justify;
+    background-color: white;
+  
+  
+    
+  }
+
+  @media (max-width: 768px) {
+    .img-fluid{
+
+      padding-top: none;
+      transform: scale(70%);
+    }
+  }
+
+
+
+  /* Scroll indicator */
+
+  .header {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    background-color: white;
+  }
+  
+  
+  
+  .progress-container {
+    width: 100%;
+    height: 8px;
+    background: white;
+    margin-left: -2vw;
+  }
+  
+  .progress-bar {
+    height: 8px;
+    background: black;
+    width: 0%;
+  }
+  
+ /* Scroll indicator End */
+
+ /* Counter */
+  #counter {
+    color: white;
+    font-size: 3vw;
+    transform: none;
+    margin: 20px;
+    text-align: center;
+    background-color: black;
+    
+}
+
+ /* Counter */
+
+ h8{
+
+  font-family: Arial, Helvetica, sans-serif;
+ }
+
+ 
+  

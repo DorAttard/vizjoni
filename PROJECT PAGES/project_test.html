@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="project_style.css">
+  
+</head>
+
+<header>
+  <!-- progress bar -->
+  <div class="header">          
+    <div class="progress-container">
+      <div class="progress-bar" id="myBar"></div>
+    </div>  
+  </div>
+  <!----------------->
+
+  <div class="navbar">
+    <!-- Image on the left side -->
+    <!-- link the homepage file in this href -->
+    <a href="#"><img id="viz" src="Viżjoni logo.png" alt="Logo"></a>
+    <!-- line seperator -->
+    <hr>
+    <!-- Text on the right side -->
+    <a id="text">Project</a>
+    <!-- burger menu -->
+    <span id="bmenu" onclick="openNav()">&#9776;</span>
+  
+
+    <div id="w-border">
+
+        <div id="myNav" class="overlay">
+      
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      
+          <div class="overlay-content">
+            <a href="">About Us</a>
+            <a href="#">Artists</a>
+            <a href="#">Gallery</a>
+            <a href="#">Contact Us</a>
+          </div>
+        </div>
+      
+        <script>/* Open */
+            function openNav() {
+            document.getElementById("myNav").style.display = "block";
+         }
+    
+            /* Close */
+            function closeNav() {
+            document.getElementById("myNav").style.display = "none";
+            }
+        </script>
+  </div>
+</header>
+  
+<body>
+  <!-- responsive gallery test -->
+
+  <div class="container">
+    <div class="card-deck">
+      <div class="card">
+        <div class="card-body">
+          <div class="large-text">Thesis Name</div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <img class="fisheye" src="portrait.jpg" alt="portrait"></a>
+          <div class="small-text">Name Surname</div>
+          <div class="social-icons">
+            <!-- Replace the icons and links with your social icons -->
+            <a href="#" class="social-icon"><img src="https://via.placeholder.com/30x30" alt="Social Icon"></a>
+            <a href="#" class="social-icon"><img src="https://via.placeholder.com/30x30" alt="Social Icon"></a>
+            <a href="#" class="social-icon"><img src="https://via.placeholder.com/30x30" alt="Social Icon"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Bootstrap JS and jQuery CDN -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <!-- end gallery -->
+
+
+
+  </div>
+
+<script> //this is the second part, it is basically a java script from w3school
+    // When the user scrolls the page, execute myFunction 
+    window.onscroll = function() {myFunction()};
+    
+    function myFunction() {
+      var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+      var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      var scrolled = (winScroll / height) * 100;
+      document.getElementById("myBar").style.width = scrolled + "%";
+    }
+</script>
+
+
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> -->
+
+</body>
+
+</html>

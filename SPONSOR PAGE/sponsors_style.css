@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  /* Style for the navbar */
+  .navbar {
+    background-color: white;
+    padding: 15px;
+    position: sticky;
+  }
+
+  /* Style for the image in the navbar */
+  #viz {
+    float: left;
+    max-height: 10vw; /* Adjust the max height of the image as needed */
+    margin-right: 5vw;
+  }
+
+  /* Style for the text in the navbar */
+  #text {
+    float: right;
+    color: black;
+    text-align: center;
+    padding-top: 4vw;
+    padding-right: 3vw;
+    text-decoration: none;
+    font-size: 3vw;
+  }
+
+  .navbar hr{
+    background-color: black;
+    margin-top: 10.5vw;
+    margin-right: 8vw;
+    margin-left: 6vw;
+    height: 0.3vw;
+    width: 57vw;
+    align-self: baseline;
+  }
+
+  #bmenu {
+  margin-left: 90vw;
+  margin-right: 3vw;
+  margin-top: 1vw;
+  font-size: 3vw;
+  cursor: pointer;
+  float: right;
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: black;
+  background-size: cover;
+}
+
+.overlay-content {
+  color: black;
+  width: 100%;
+  position: relative;
+  top: 25%;
+  text-align: center;
+  margin-top: 30px;
+
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: rgb(107, 106, 106);
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+
+#sponsorsection{
+  padding: 3vw;
+}
+
+.row{
+    box-sizing: border-box;
+  display: flex;
+    justify-content: center;
+    padding-top: 4vw;
+    align-items: center;
+}
+
+#logo{
+  float: center;
+  width: 20vw;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    background-color: white;
+  }
+
+.logocontainer{
+  display: flex;
+  padding-top: 1vw;
+  width: 30vw;
+  justify-content: center;
+}
+
+.progress-container {
+    width: 100%;
+    height: 8px;
+    background: white;
+  }
+  
+  .progress-bar {
+    height: 8px;
+    background: black;
+    width: 0%;
+  }

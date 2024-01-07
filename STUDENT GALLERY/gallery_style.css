@@ -1,0 +1,175 @@
+body {
+    margin: 0 auto;
+    font-family: Helvetica, sans-serif;
+  }
+
+  /* Style for the navbar */
+  .navbar {
+    background-color: white;
+    padding: 15px;
+    position: sticky;
+  }
+
+  /* Style for the image in the navbar */
+  #viz {
+    float: left;
+    max-height: 10vw; /* Adjust the max height of the image as needed */
+    /* margin-right: 5vw; */
+  }
+
+  /* Style for the text in the navbar */
+  #text {
+    float: right;
+    color: black;
+    text-align: center;
+    /* padding-right: 3vw; */
+    text-decoration: none;
+    font-size: 3vw;
+  }
+
+  hr {
+    background-color: black;
+    height: 0.3vw;
+    width: 57vw;
+    align-self: center;
+  }
+
+  #bmenu {
+  margin-right: 3vw;
+  margin: 0 auto;
+  font-size: 4vw;
+  cursor: pointer;
+  float: right;
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: black;
+  background-size: cover;
+}
+
+.overlay-content {
+  color: black;
+  width: 100%;
+  position: relative;
+  top: 25%;
+  text-align: center;
+  margin-top: 30px;
+
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: rgb(107, 106, 106);
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+
+/* ---- cards ------ */
+
+.container {
+  margin-top: 5%;
+}
+
+.row {
+  margin: 0;
+}
+
+.card {
+  margin-bottom: 20px;
+  border: none;
+}
+
+
+h5.card-title {
+  font-weight: bold;
+  border-bottom: solid 0.5vh;
+}
+
+/* Align text to the right inside card body */
+.card-body {
+  text-align: right;
+  /* padding: 0;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem; */
+}
+
+/* Make images inside cards responsive */
+.card-img-top {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.card-img-top:hover {
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+  transition: all 0.3s;
+  will-change: transform
+
+}
+
+
+/* -------------------- */
+
+#logo{
+  float: center;
+  width: 20vw;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    background-color: white;
+  }
+
+.logocontainer{
+  display: flex;
+  padding-top: 1vw;
+  width: 30vw;
+  justify-content: center;
+}
+
+.progress-container {
+    width: 100%;
+    height: 8px;
+    background: white;
+  }
+  
+  .progress-bar {
+    height: 8px;
+    background: black;
+    width: 0%;
+  }
