@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="sponsors_style.css">
+  <link rel="stylesheet" type="text/css" href="sponsors.css">
   
 </head>
 
@@ -19,19 +19,18 @@
   
 
   <div class="navbar">
+
     <!-- Image on the left side -->
-    <!-- link the homepage file in this href -->
-    <span id="bmenu" onclick="openNav()">&#9776;</span>
-    <a href="VIZJONI-FINAL.html"> 
-      <img id="viz" src="Viżjoni logo.png" alt="Logo">
-    </a>
+    <a href="index.html"><img id="viz" src="images/logo.png" alt="Logo"></a>
+
+    <!-- line seperator -->
+    <hr>
+
     <!-- Text on the right side -->
     <a id="text">Sponsors</a>
-    <!-- line in between -->
-    <hr>
-    
-    
 
+    <!-- burger menu -->
+    <span id="bmenu" onclick="openNav()">&#9776;</span>
     <div id="w-border">
 
         <div id="myNav" class="overlay">
@@ -39,24 +38,25 @@
           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
       
           <div class="overlay-content">
-            <a href="VIZJONI-FINAL.html">About Us</a>
-            <a href="gallery.html">Artists</a>
-            <a href="project_2.html">Gallery</a>
-            <a href="VIZJONI-FINAL.html">Contact Us</a>
+            <a href="index.html">Homepage</a>
+            <a href="exhibition.html">Exhibition</a>
+            <a href="sponsors.html">Sponsors</a>
+            <a href="index.html">Contact Us</a>
           </div>
         </div>
       
-    <script>/* Open */
-        function openNav() {
-        document.getElementById("myNav").style.display = "block";
-      }
+        <script>/* Open */
+            function openNav() {
+            document.getElementById("myNav").style.display = "block";
+         }
     
-    /* Close */
-        function closeNav() {
-        document.getElementById("myNav").style.display = "none";
-      }
-    </script>
-  </div>
+            /* Close */
+            function closeNav() {
+            document.getElementById("myNav").style.display = "none";
+            }
+        </script>
+      </div>
+
 
   <!-- content here -->
   <!-- <div class="sponsors container">
@@ -75,41 +75,19 @@
 
       <div class="logocontainer">
         <a href="#" target="_blank">
-          <img id="logo" src="TBWA Logo.png" >
+          <img id="logo" src="images/sponsors_TBWA.png" >
         </a>
       </div>
 
       <div class="logocontainer">
         <a href="#" target="_blank">
-          <img id="logo" src="university_of_malta.png" >
+          <img id="logo" src="images/sponsors_university_of_malta.png" >
         </a>
       </div>
 
       <div class="logocontainer">
         <a href="#" target="_blank">
-          <img id="logo" src="artz_id.png" >
-        </a>
-      </div>
-
-    </div>
-
-    <div class="row">
-      
-      <div class="logocontainer">
-        <a href="#" target="_blank">
-          <img id="logo" src="think.png" >
-        </a>
-      </div>
-
-      <div class="logocontainer">
-        <a href="#" target="_blank">
-          <img id="logo" src="maltarti.png" >
-        </a>
-      </div>
-
-      <div class="logocontainer">
-        <a href="#" target="_blank">
-          <img id="logo" src="canon.png" >
+          <img id="logo" src="images/sponsors_artz_id.png" >
         </a>
       </div>
 
@@ -119,19 +97,41 @@
       
       <div class="logocontainer">
         <a href="#" target="_blank">
-          <img id="logo" src="creative_studios.png" >
+          <img id="logo" src="images/sponsors_think.png" >
         </a>
       </div>
 
       <div class="logocontainer">
         <a href="#" target="_blank">
-          <img id="logo" src="freehour.png" >
+          <img id="logo" src="images/sponsors_maltarti.png" >
         </a>
       </div>
 
       <div class="logocontainer">
         <a href="#" target="_blank">
-          <img id="logo" src="icenter.png" >
+          <img id="logo" src="images/sponsors_canon.png" >
+        </a>
+      </div>
+
+    </div>
+
+    <div class="row">
+      
+      <div class="logocontainer">
+        <a href="#" target="_blank">
+          <img id="logo" src="images/sponsors_creative_studios.png" >
+        </a>
+      </div>
+
+      <div class="logocontainer">
+        <a href="#" target="_blank">
+          <img id="logo" src="images/sponsors_freehour.png" >
+        </a>
+      </div>
+
+      <div class="logocontainer">
+        <a href="#" target="_blank">
+          <img id="logo" src="images/sponsors_icenter.png" >
         </a>
       </div>
 
@@ -174,9 +174,8 @@
     </script>
 
 
-  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> -->
+
 
   
 </body>
-
 </html>
