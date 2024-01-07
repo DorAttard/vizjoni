@@ -7,6 +7,22 @@
     <link rel="stylesheet" href="index.css">
     <title>Viżjoni</title>
     <link rel="icon" type="image/x-icon" href="images/favicon_2.png">
+
+     <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Check if there is a fragment identifier in the URL
+            var hash = window.location.hash;
+            if (hash !== "") {
+                // Scroll to the element with the specified ID
+                var targetElement = document.querySelector(hash);
+                if (targetElement) {
+                    targetElement.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+            }
+        });
+    </script>
     
 </head>
 
