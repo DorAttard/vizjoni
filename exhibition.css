@@ -33,9 +33,10 @@ body {
     float: right;
     color: black;
     text-align: center;
+    font-family: Baskerville, Regular;
     /* padding-right: 3vw; */
     text-decoration: none;
-    font-size: 3vw;
+    font-size: 3.5vw;
   }
 
   hr {

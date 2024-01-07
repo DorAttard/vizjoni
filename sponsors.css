@@ -25,7 +25,8 @@ body {
     padding-top: 4vw;
     padding-right: 3vw;
     text-decoration: none;
-    font-size: 3vw;
+    font-family: Baskerville, Regular;
+    font-size: 3.5vw;
   }
 
   .navbar hr{
