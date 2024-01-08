@@ -1,0 +1,282 @@
+body{
+    background-color: #F1F1F1;
+}
+
+.bg-light {
+    --bs-bg-opacity: 1;
+    background-color: #F1F1F1(var(--bs-light-rgb),var(--bs-bg-opacity))!important;   
+}
+
+.offcanvas {
+   position: fixed;
+   bottom: 0;
+   z-index: 1045;
+   display: flex;
+   flex-direction: column;
+   max-width: 100%;
+   visibility: hidden;
+   background-color:#191919;
+   background-clip: padding-box;
+   outline: 0;
+   transition: transform .3s ease-in-out;
+}
+.offcanvas-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+    color: #F1F1F1;
+}
+
+.form-control{
+    height: 20%;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    color: #F1F1F1;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color:#F1F1F1;
+}
+.navbar-light .navbar-nav .nav-link {
+    color:#F1F1F1;
+}
+.navbar-light .navbar-nav .nav-link {
+    color:#F1F1F1;
+}
+.btn-outline-success {
+    color:#FF3A34;
+    border-color:#FF3A34;
+}
+
+/* table{
+    background-color: #191919;
+    margin: 0%;
+    padding: 5%;
+} */
+
+#description{
+    background-color: #191919; 
+    display: flex;
+
+}
+
+#desc_text{
+    color: #F1F1F1;
+    margin-right: auto;
+    margin-top: 4vw;
+    margin-bottom: 2vw;
+    padding-top: 5vw;
+    padding-left: 5%;
+    font-size: 2vw;
+    /* text-align: justify;
+    text-justify:inter-word; */
+
+}
+
+#year{
+   color: #FF3A34;
+
+   /* text-align: right; */
+   font-size: 30vw;
+   text-align: center;
+   font-family: 'Whisper', cursive;
+   font-weight: 900;
+   margin-right: 9vw;
+}
+
+
+h1{
+    font-family: 'Gabarito', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 15vw;
+    padding: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 5%;
+}
+
+#ones{
+    font-family: 'Whisper', cursive;
+    margin-top: 0vw;
+}
+
+.OO{
+    margin-top: 2%;
+}
+
+/* #marker1{
+    color: #FF3A34;
+    text-transform: none;
+    font-family: 'Kolker Brush', cursive;
+    font-size: 1000%;
+} */
+
+.red{
+    color: #F1F1F1;
+}
+video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 150vw;
+    object-fit: cover;
+    z-index: -1;
+}
+.over{
+    z-index: 1;
+}
+
+#group{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 2%;
+    width: 100%;
+}
+
+/* Style the header: fixed position (always stay at the top) */
+.header {
+position: fixed;
+top: 0;
+z-index: 1;
+width: 100%;
+background-color: #f1f1f1;
+}
+
+/* The progress container (grey background) */
+.progress-container {
+width: 100%;
+height: 8px;
+background:#FF3A34;
+}
+
+/* The progress bar (scroll indicator) */
+.progress-bar {
+height: 8px;
+background:#F1F1F1;
+width: 0%;
+}
+
+#gal{
+    background-color: #FF3A34;
+    float: left;
+    width: 100vw;
+}
+
+.proj{
+    
+    float: left;
+    width: 30%;
+    height: auto;
+    margin: 1.66%;
+}
+
+#gal_text{
+    font-family: 'Gabarito', sans-serif;
+    font-size: 25vw;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.color img{
+    
+    filter: grayscale(100%);
+    filter: grayscale(100%);
+    transition: all 1s ease;
+    }
+    
+    .color img:hover{
+    filter: grayscale(0%);
+    filter: gray;
+    filter: grayscale(0%);
+    filter: none;
+    transition: 1s ease;
+    }
+
+.form{
+    background-color: #191919;
+ }
+
+#contact{
+    font-size: 10vw;
+    font-family: Helvetica;
+    font-weight: 900;
+    color: #F1F1F1;
+    margin-left: 9vw;
+}
+
+
+
+#label{
+    color: #F1F1F1;
+    margin: 1vw;
+    padding-left: 9vw;
+        
+}
+
+.fill1{
+    margin-left: 10vw;
+    padding-left: 2vw;
+    width: 70vw;
+    height: 5vw;
+
+}
+
+.fill2{
+    margin-left: 10vw;
+    padding-left: 2vw;
+    width: 70vw;
+    height: 20vw;
+    
+}
+
+button{
+    margin-left: 10vw;
+    margin-bottom: 10vw;
+    width: 60px;
+    height: 40px;
+    
+}
+
+button[type="submit"]{
+    background-color: #191919;
+    color: #FF3A34;
+    border-color: #FF3A34;
+    border-radius: 1vw;
+    
+}
+
+button[type="submit"]:hover{
+    background-color:#f1f1f1;
+    color: #FF3A34;
+    border-color: #FF3A34;
+    border-radius: 1vw;
+}
+
+.fa {
+    padding: 0%;
+    font-size: 100px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .fa-instagram {
+    color:#F1F1F1;
+    margin-left: 10vw;
+    margin-bottom: 5vw;
+  }
+
+  .fa-facebook{
+    color:#F1F1F1;
+    margin-left: 6vw;
+    margin-bottom: 5vw;
+  }
