@@ -1,0 +1,287 @@
+html{
+    cursor: cell;
+}
+
+body {
+    font-family: 'Audiowide', sans-serif;
+    font-family: 'VT323', monospace; 
+    margin-top: 4vh;
+    background-color: black;
+    display: block;   
+
+  }
+
+a {
+    font-size: 4vh;
+}
+ 
+/* ---------- menu ------------ */
+
+/* Navbar */
+#navbar {
+    background-color: rgb(185, 185, 185);
+    border: 5px rgb(222, 222, 222);
+    border-style: outset;
+    padding: 1vh;
+    width: 85vw;
+    margin: 0 auto;
+    position: fixed center;
+ 
+}
+
+/* Burger menu */
+
+#bmenu {
+    margin: 0 auto;
+    font-size: 30px;
+    cursor: pointer;
+    float: right;
+    /* background-color: rgb(185, 185, 185);
+    border: 2px;
+    border-style: outset;
+    border-color: grey; */
+
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    /* background-color: rgb(185, 185, 185); */
+    /* background-color: rgb(185, 185, 185); */
+    background-image: url(gradientT.jpg);
+    background-size: cover;
+}
+  
+.overlay-content {
+    width: 100%;
+    position: relative;
+    top: 25%;
+    /* width: 80vw; */
+    text-align: center;
+    margin-top: 30px;
+ 
+}
+  
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+}
+  
+.overlay a:hover, .overlay a:focus {
+    color: white;
+}
+  
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+  
+@media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    } 
+}
+
+
+
+/* -------- main--------- */
+.main {
+    margin: 0 auto;
+    padding: 1vh;
+    width: 85vw;
+    background-color: white;
+    overflow: scroll; 
+    position: fixed center;
+    height: 80vh;
+    border-left: 5px solid rgb(138,138, 138);
+    border-right: 5px solid rgb(138,138, 138);
+    border-bottom: 5px solid rgb(138,138, 138);
+} 
+
+hr {
+    border: 2px dashed black;
+}
+
+#banner {
+    width: 100%;
+    height: auto;
+}
+
+.about {
+    font-size: 200%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    color: blue;
+}
+
+/* ---------- gallery ------------- */
+
+.gallery:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+  }
+
+ul {
+    list-style: none;
+    padding: 0;
+    background-color: black;
+}
+
+.img-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0;
+    margin: 0;
+}
+  
+.img-gallery > li {
+    flex-basis: 25%; /*width: 350px;*/
+    max-width: 25%;
+    /* position: relative; */
+
+}
+  
+.img-gallery::after {
+    content: "";
+    flex-basis: 350px;
+}
+  
+.img-gallery li img {
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+
+/* -------- box ---------- */
+
+
+h3 {
+    text-decoration: underline;
+    font-size: 22px;
+}
+
+.container {
+    background-image: url(gradientT.jpg);
+    background-size: cover;
+}
+
+.box {
+    width: 100%;
+    overflow: hidden;
+}
+
+.box p,
+.box form {
+    width: 50%;
+    align-items: center;
+    box-sizing: border-box;
+    float: left;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+  label,
+  input,
+  textarea {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  textarea {
+    height: 100px;
+  }
+
+  input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+
+
+@media screen and (max-width: 600px) {
+    .box p,
+    .box form {
+      max-width: 100%;
+      float: none;
+    }
+  }
+
+/* .about {
+    font-size: 24px;
+    margin-right: auto;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    padding-right: 5%;
+}
+
+.contact {
+    padding: 5%;
+    font-size: 20px;
+
+} */
+
+/* .input {
+    width: 100%;
+    font-family: 'VT323', monospace; 
+    color: blue;
+    font-size: 20px;
+} */
+
+.class p {
+    margin: 0;
+}
+
+.class {
+    color: yellow;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+
+}
+
+#counter {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: blue;
+    color: yellow;
+    font-size: 10vw;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 20vh;
+}
+
+.footer {
+    text-align: center;
+    font-size: 8;
+}
+
+
