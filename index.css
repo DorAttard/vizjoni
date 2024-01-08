@@ -89,6 +89,7 @@ h4{
 video {
   max-width: 100%;
   width: 1420px;
+  margin: 0 auto;
   pointer-events: none;
   padding-top: 2vh;
   padding-bottom: 5vh;
