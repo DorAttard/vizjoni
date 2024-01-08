@@ -133,7 +133,7 @@ body {
   margin-left: 10vw auto;
   margin-right: 10vw auto;
   padding: 2vw;
-  border-bottom: solid black 0.5vw;
+  border-bottom: solid black 8px;
 }
 
 .card {
