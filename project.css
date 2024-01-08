@@ -192,5 +192,15 @@ body {
   z-index: 99999;
 }
 
+h2 {
+  font-weight: bold;
+}
+
+.font2{
+  font-family: "Font2", Baskerville, Regular;
+  font-weight: lighter;
+  font-style: italic;
+}
+
 
 /* -------------------- */
